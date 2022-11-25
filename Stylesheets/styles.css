@@ -16,7 +16,6 @@ Brown #815600
  */
 
 html {
-    font-family: 'Petit Formal Script', cursive;
     font-size: 125%; /* 125% X 16px, which is now default font-size =20px */
     color: white;
     background-color: #815600;
@@ -26,6 +25,12 @@ html {
     width: 90%;
     margin: 0 auto;
     max-width: 1080px;
+}
+h1,
+h2,
+button,
+.midNav {
+    font-family: 'Petit Formal Script', cursive;
 }
 h1 {
     font-size: 4.5rem;
@@ -39,7 +44,7 @@ h1 {
 .contact h2 {
     font-size: 2.25rem;
 }
-buttons {
+button {
     font-size: 1.25;
     justify-content: center;
     line-height: 29px;
