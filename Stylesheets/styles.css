@@ -5,3 +5,91 @@ html { box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+/* end of setup css */
+
+/* 
+color palette
+White #FFFFFF
+Dark brown #1D0303
+Hard red #500801
+Brown #815600
+ */
+
+html {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 125%; /* 125% X 16px, which is now default font-size =20px */
+    color: white;
+    background-color: #815600;
+}
+/* general wrapper and "Text Style Catalog" styling */
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+h1 {
+    font-size: 4.5rem;
+    justify-content: right;
+    line-height: 94.3px;
+}
+.fallTrends h2,
+.veganLeather h2 {
+    font-size: 2.7rem;
+}
+.contact h2 {
+    font-size: 2.25rem;
+}
+buttons {
+    font-size: 1.25;
+    justify-content: center;
+    line-height: 29px;
+}
+.footerNav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 29px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+}
+a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
+/* Header */
+header {
+    background-color: #815600;
+    /* margin: 0; */
+}
+/* nav container */
+.navContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+.navContainer li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+/*  section Hand crafted */
+.handCrafted {
+    background-color: #500801;
+}
+/* section latest collection */
+.latestCollection {
+    background-color: #815600;
+}
+/* section mid-nav */
+.midNav {
+    background-color: #500801;
+}
+/* section squareGallery */
+.squareGallery {
+    background-color: #815600;
+}
+/* section footerNav */
+footer {
+    background-color: #500801;
+}
