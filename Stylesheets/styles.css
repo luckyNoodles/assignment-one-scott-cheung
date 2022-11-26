@@ -51,7 +51,8 @@ button {
     color: white;
     background-color: #1D0303;
 }
-button:hover {
+button:hover,
+button:focus {
     border: 2px solid white;
 }
 section,
