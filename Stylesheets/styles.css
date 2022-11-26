@@ -178,6 +178,18 @@ header {
 .midNav {
     background-color: #500801;
 }
+.midNavContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.midNavContainer li {
+    display: inline-block;
+    text-align: center;
+}
+.midNavContainer li {
+    margin: auto;
+}
+
 /* section squareGallery */
 .squareGallery {
     background-color: #815600;
