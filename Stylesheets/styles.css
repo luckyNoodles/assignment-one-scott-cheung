@@ -18,6 +18,7 @@ Brown #815600
 html {
     font-size: 125%; 
     color: white;
+    background-color: #000;
 }
 /* general wrapper and "Text Style Catalog" styling */
 .wrapper {
@@ -47,6 +48,7 @@ button {
     font-size: 1.25;
     justify-content: center;
     line-height: 29px;
+    border: 1px solid #1D0303;
     color: white;
     background-color: #1D0303;
 }
@@ -197,7 +199,8 @@ header {
     margin: 0px;
 }
 .squareGallery h2 {
-    margin-top: 15px;
+    margin-top: 15px 0px;
+    font-size: calc(2.7rem * 0.7);
 }
 .squares {
     display: flex;
@@ -220,10 +223,44 @@ header {
 .fallTrends,
 .veganLeather {
     width: 50%;
-    /* height: 50%; */
-    /* padding: 25px 0px; */
+}
+.veganContent {
+    margin: 50px;
 }
 /* section footerNav */
 footer {
     background-color: #500801;
+    margin: 0px;
+}
+.footContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.footContainer .navContainer {
+    flex-direction: column;
+}
+.footContainer .navContainer li,
+.footContainer .navContainer a {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    /* border:2px solid white ; */
+}
+.stayUpdated input{
+ width: 70%;
+ height: 32px
+}
+address,
+.contact {
+    text-align: right;
+}
+.contact h2 {
+    margin: 5px auto;
+}
+.copyright {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
 }

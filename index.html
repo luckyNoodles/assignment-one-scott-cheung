@@ -125,10 +125,13 @@
                         <img src="./images/left-photo.jpg" alt="picture of side bag bag">
                     </div>
                     <div class="veganLeather">
-                        <h2>Vegan Leather</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur repellendus repellat dignissimos tempora. Beatae perspiciatis quisquam.
-                        </p>
-                        <button>read more</button>
+                        <div class="veganContent">
+                            <h2>Vegan Leather</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur repellendus repellat dignissimos
+                                tempora. Beatae perspiciatis quisquam.
+                            </p>
+                            <button>read more</button>
+                        </div>   
                     </div>
                 </div>
             </div>
@@ -136,44 +139,46 @@
     </main>
     <footer>
         <div class="wrapper">
-            <div class="footerNav">
-                <ul class="navContainer">
-                    <li>
-                        <a href="#">home</a>
-                    </li>
-                    <li>
-                        <a href="#">blog</a>
-                    </li>
-                    <li>
-                        <a href="#">gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">contact</a>
-                    </li>
-                </ul>
+            <div class="footContainer">
+                <div class="footerNav">
+                    <ul class="navContainer">
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">blog</a>
+                        </li>
+                        <li>
+                            <a href="#">gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="stayUpdated">
+                    <h2>Stay Updated</h2>
+                    <p>Subscripe to our newsletter to stay updated</p>
+                    <form action="https://galassExample.com/exampleNewsletter.php" method="post">
+                        <label for="newsletterInput"></label>
+                        <input type="email" id="newsletterInput" name="newsletterInput">
+                        <button type="submit">subscribe</button>
+                    </form>
+                </div>
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <address>
+                        <a href="mailto:info@email.com">info@email.com</a> | 123-456-7890 <br>
+                        123 some road, Toronto, ON <br>
+                        A5A 5A5, Canada
+                    </address>
+                </div>
             </div>
-            <div class="stayUpdated">
-                <h2>Stay Updated</h2>
-                <p>Subscripe to our newsletter to stay updated</p>
-                <form action="submit">
-                    <label for="newsletterInput"></label>
-                    <input type="text" id="newsletterInput" name="newsletterInput">
-                    <button>subscribe</button>
-                </form>
-            </div>
-            <div class="contact">
-                <h2>Contact</h2>
-                <address>
-                    <a href="mailto:info@email.com">info@email.com</a> | 123-456-7890 <br>
-                    123 some road, Toronto, ON <br>
-                    A5A 5A5, Canada
-                </address>
-            </div>
-            <div>
-                <p>Copyright &copy; 2019 HackerYou</p>
-            </div>
+            
         </div>
-        
+        <div class="copyright">
+            <p>Copyright &copy; 2019 HackerYou</p>
+        </div>
     </footer>
 </body>
 </html>
