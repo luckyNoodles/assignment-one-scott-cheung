@@ -82,23 +82,29 @@ li {
 /* Header */
 header {
     background-color: #815600;
+    height: 80vh;
+}
+#headerContents {
+    height: 100%;
 }
 .headerContainer {
     display: flex;
     align-items: center;
+    height: 95%;
 }
 .headerContainer h1 {
     display: inline-block;
     text-align: right;
     margin-right: 50px;
-    
+    font-size: calc(4.5rem * .75);
 }
 .imageContainer {
-    display: inline-block;
-}
-/* .headerContainer img {
+    /* display: inline-block; */
     width: 100%;
-} */
+}
+.headerContainer img {
+    width: 100%;
+}
 .socialMedia {
     align-self: flex-end;
 }
