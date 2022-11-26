@@ -54,7 +54,7 @@ section,
 header,
 main,
 footer {
-        padding: 15px 0px;
+        padding: 0px 0px;
 }
 main {
     background-color: #815600;
@@ -177,6 +177,7 @@ header {
 /* section mid-nav */
 .midNav {
     background-color: #500801;
+    padding: 20px;
 }
 .midNavContainer {
     display: flex;
@@ -189,10 +190,33 @@ header {
 .midNavContainer li {
     margin: auto;
 }
-
 /* section squareGallery */
 .squareGallery {
     background-color: #815600;
+    padding: 0px;
+}
+.squareGallery h2 {
+    margin-top: 15px;
+}
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio img,
+.leatherSidebag img {
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio,
+.leatherSidebag {
+    width: 500px;
+    height: 375px;
+}
+.fallTrends,
+.veganLeather {
+    width: 500px;
+    height: 375px;
+    padding: 25px 30px;
 }
 /* section footerNav */
 footer {
