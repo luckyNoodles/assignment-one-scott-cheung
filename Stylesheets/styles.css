@@ -57,7 +57,7 @@ footer {
         padding: 0px 0px;
 }
 main {
-    background-color: #815600;
+    /* background-color: #815600; */
 }
 .footerNav {
     font-family: 'Roboto', sans-serif;
@@ -194,6 +194,7 @@ header {
 .squareGallery {
     background-color: #815600;
     padding: 0px;
+    margin: 0px;
 }
 .squareGallery h2 {
     margin-top: 15px;
@@ -201,22 +202,26 @@ header {
 .squares {
     display: flex;
     flex-wrap: wrap;
+    /* margin: 0px; */
 }
 .portfolio img,
 .leatherSidebag img {
-    width: 100%;
-    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 .portfolio,
 .leatherSidebag {
-    width: 500px;
-    height: 375px;
+    width: 50%;
+    /* background-size: cover; */
+    background-position: center;
 }
 .fallTrends,
 .veganLeather {
-    width: 500px;
-    height: 375px;
-    padding: 25px 30px;
+    width: 50%;
+    /* height: 50%; */
+    /* padding: 25px 0px; */
 }
 /* section footerNav */
 footer {
