@@ -16,9 +16,8 @@ Brown #815600
  */
 
 html {
-    font-size: 125%; /* 125% X 16px, which is now default font-size =20px */
+    font-size: 125%; 
     color: white;
-    background-color: #815600;
 }
 /* general wrapper and "Text Style Catalog" styling */
 .wrapper {
@@ -33,9 +32,9 @@ button,
     font-family: 'Petit Formal Script', cursive;
 }
 h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     justify-content: right;
-    line-height: 94.3px;
+    line-height: 64.3px;
 }
 .fallTrends h2,
 .veganLeather h2 {
@@ -44,10 +43,24 @@ h1 {
 .contact h2 {
     font-size: 2.25rem;
 }
+img {
+    width: 100%;
+}
 button {
     font-size: 1.25;
     justify-content: center;
     line-height: 29px;
+    color: white;
+    background-color: #1D0303;
+}
+section,
+header,
+main,
+footer {
+        padding: 15px 0px;
+}
+main {
+    background-color: #815600;
 }
 .footerNav {
     font-family: 'Roboto', sans-serif;
@@ -64,15 +77,47 @@ a {
     text-decoration-style: none;
     color: white;
 }
+li {
+    list-style: none;
+}
 /* Header */
 header {
     background-color: #815600;
-    /* margin: 0; */
 }
+.headerContainer {
+    display: flex;
+    align-items: center;
+}
+.headerContainer h1 {
+    display: inline-block;
+    text-align: right;
+    margin-right: 50px;
+}
+.imageContainer {
+    display: inline-block;
+}
+/* .imageContainer img {
+    width: 100%;
+} */
+.socialMedia {
+    align-self: flex-end;
+}
+.social-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia li {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+
 /* nav container */
 .navContainer {
     display: flex;
     justify-content: flex-start;
+    margin: 0px;
 }
 .navContainer li {
     display: inline-block;
