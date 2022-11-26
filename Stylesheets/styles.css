@@ -32,9 +32,9 @@ button,
     font-family: 'Petit Formal Script', cursive;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
     justify-content: right;
-    line-height: 64.3px;
+    line-height: 94.3px;
 }
 .fallTrends h2,
 .veganLeather h2 {
@@ -42,9 +42,6 @@ h1 {
 }
 .contact h2 {
     font-size: 2.25rem;
-}
-img {
-    width: 100%;
 }
 button {
     font-size: 1.25;
@@ -92,11 +89,12 @@ header {
     display: inline-block;
     text-align: right;
     margin-right: 50px;
+    
 }
 .imageContainer {
     display: inline-block;
 }
-/* .imageContainer img {
+/* .headerContainer img {
     width: 100%;
 } */
 .socialMedia {
@@ -106,13 +104,11 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 .socialMedia li {
     margin: 5px;
     width: 25px;
     height: 25px;
 }
-
 /* nav container */
 .navContainer {
     display: flex;
@@ -126,6 +122,35 @@ header {
 /*  section Hand crafted */
 .handCrafted {
     background-color: #500801;
+}
+.craftFlexContainer {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+.blueBagImage {
+    display: inline-block;
+}
+.blueBagImage img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    object-fit:none;
+    object-position: 30% 20%;
+}
+.craftWords {
+    display: inline-block;
+    align-items: flex-start;
+    height: 300px;
+    padding: 20px 0px;
+}
+.craftWords h2{
+    margin: 0px 5px;
+    padding: 5px;
+}
+.craftWords p {
+    width: 100%;
+    padding: 20px 0px;
 }
 /* section latest collection */
 .latestCollection {
