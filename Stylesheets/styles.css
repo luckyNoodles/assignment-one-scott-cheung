@@ -39,14 +39,18 @@ h1 {
 .fallTrends h2,
 .veganLeather h2 {
     font-size: 2.7rem;
+    margin: 10px;
 }
 .contact h2 {
     font-size: 2.25rem;
 }
 button {
-    font-size: 1.25;
+    /* font-size: 1.25; */
+    width: 145px;
+    padding: 3.5px 15px;
+    margin-top: 10px;
     justify-content: center;
-    line-height: 29px;
+    /* line-height: 29px; */
     border: 1px solid #1D0303;
     color: white;
     background-color: #1D0303;
@@ -82,7 +86,7 @@ li {
 /* Header */
 header {
     background-color: #815600;
-    height: 80vh;
+    height: 75vh;
 }
 #headerContents {
     height: 100%;
@@ -90,7 +94,7 @@ header {
 .headerContainer {
     display: flex;
     align-items: center;
-    height: 95%;
+    height: 90%;
 }
 .headerContainer h1 {
     display: inline-block;
@@ -100,9 +104,10 @@ header {
 }
 .imageContainer {
     width: 100%;
+    align-self: flex-end;
 }
 .headerContainer img {
-    width: 100%;
+    width: 100%; 
 }
 .socialMedia {
     align-self: flex-end;
@@ -226,11 +231,16 @@ header {
 }
 .fallTrends,
 .veganLeather {
+    display: flex;
     width: 50%;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
-.veganContent {
-    margin: 50px;
-}
+/* .veganContent {
+    margin: 20px;
+} */
 /* section footerNav */
 footer {
     background-color: #500801;
@@ -252,8 +262,8 @@ footer {
     display: block;
 }
 .stayUpdated input{
- width: 70%;
- height: 32px
+ width: 60%;
+ height: 34px
 }
 address,
 .contact {
@@ -271,7 +281,7 @@ address,
 @media (max-width:390px) {
 
 .wrapper {
-    width: 98%;
+    width: 100%;
 }
 button {
     width: fit-content;
@@ -316,21 +326,35 @@ header {
     padding: 10px 0px;
     margin: 0px;
 }
+.craftWords {
+    padding: 0px 15px;
+}
 /* latest collection */
+.latestCollection {
+    padding: 20px 0px;
+}
 .latestGallery img{
     width: 180px;
     height: 180px;
+    margin: 3px;
 }
 .latestGallery {
     flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
 .gallery-pic-2 img{
     display: none;
 }
 /* mid Nav */
+.midNav {
+    padding: 20px 0px;
+}
 .midNavContainer {
     flex-direction: column;
     padding: 0px;
+}
+.midNavContainer li {
+   margin: 5px;
 }
 /* square Gallery */
 .squareGallery {
@@ -341,19 +365,19 @@ header {
 .leatherSidebag,
 .veganLeather {
     width: 100%;
-    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.portfolio {
+.portfolio,
+.leatherSidebag img {
     order: -1;
+    padding: 0px;
 }
 .fallTrends,
 .veganLeather {
     height: fit-content;
     padding: 20px auto;
-
 }
 /* footer */
 .footContainer {
@@ -378,6 +402,11 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.stayUpdated p {
+    width: 350px;
+    text-align: center;
+
 }
 address {
     text-align: center;
