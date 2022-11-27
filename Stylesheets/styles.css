@@ -111,7 +111,7 @@ header {
 .socialMedia {
     align-self: flex-end;
 }
-.social-flex {
+.socialFlex {
     display: flex;
     flex-direction: column;
 }
@@ -422,4 +422,4 @@ address,
     address {
         text-align: center;
     }
-}
+} 
