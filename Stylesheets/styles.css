@@ -7,18 +7,10 @@ html { box-sizing: border-box;}
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 /* end of setup css */
 
-/* 
-color palette
-White #FFFFFF
-Dark brown #1D0303
-Hard red #500801
-Brown #815600
- */
 html {
     font-size: 125%; 
     color: white;
     background-color: #000;
-    /* margin-top: -px; */
 }
 /* general wrapper and "Text Style Catalog" styling */
 .wrapper {
@@ -46,12 +38,10 @@ h1 {
     font-size: 2.25rem;
 }
 button {
-    /* font-size: 1.25; */
     width: 145px;
     padding: 3.5px 15px;
     margin-top: 10px;
     justify-content: center;
-    /* line-height: 29px; */
     border: 1px solid #1D0303;
     color: white;
     background-color: #1D0303;
@@ -216,7 +206,6 @@ header {
 .squares {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 0px; */
 }
 .portfolio img,
 .leatherSidebag img {
@@ -302,9 +291,10 @@ address,
     }
     .navContainer a:hover {
         color: white;
-        background-color: rgba(00,00,00,0);
+        background-color: rgba(00, 00, 00, 0);
         font-size: 1rem;
         line-height: 10px;
+        margin: 10px 0px;
     }
     /* header section */
     header {
@@ -364,7 +354,7 @@ address,
         padding: 0px;
     }
     .midNavContainer li {
-    margin: 5px;
+        margin: 5px;
     }
     /* square Gallery */
     .squareGallery {
@@ -416,7 +406,10 @@ address,
     .stayUpdated p {
         width: 350px;
         text-align: center;
-
+        font-size: .8rem;
+    }
+    .stayUpdated input {
+        width: 320px;
     }
     address {
         text-align: center;
