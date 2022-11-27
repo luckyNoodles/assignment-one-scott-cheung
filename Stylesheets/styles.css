@@ -6,6 +6,14 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 /* end of setup css */
+/* Color Palatte
+White: HEX (#FFFFFF) rgb (255,255,255)
+Dark brown: HEX (#1D0303) rgb(29,3,3)
+Hard Red: HEX (#500801 rgb (80,8,1)
+Brown: HEX (#815600) rgb (129,86,0)
+H1, H2, H3, Buttons, font-family: PetitFormalScript
+footer nav, Body text font-family: Roboto
+ */
 
 html {
     font-size: 125%; 
