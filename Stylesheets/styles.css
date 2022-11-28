@@ -6,6 +6,7 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 /* end of setup css */
+
 /* Color Palatte
 White: HEX (#FFFFFF) rgb (255,255,255)
 Dark brown: HEX (#1D0303) rgb(29,3,3)
@@ -85,15 +86,15 @@ li {
 /* Header */
 header {
     background-color: #815600;
-    height: 75vh;
+    height: 50vh;
 }
 #headerContents {
-    height: 100%;
+    height: 90%;
 }
 .headerContainer {
     display: flex;
     align-items: center;
-    height: 90%;
+    height: 100%;
 }
 .headerContainer h1 {
     display: inline-block;
@@ -281,29 +282,31 @@ address,
         width: fit-content;
     }
     /* top nav */
-    .navContainer {
-        flex-direction: column;
-        margin-right: 10px;
-        position: absolute;
-        top: 5px;
-        right: -10px;
-    }
-    .navContainer a {
-        display: block;
-        color: rgba(00,00,00,0);
-        font-size: .7rem;
-        margin: 0px;
-        width: 60px;
-        line-height: 4px;
-        background-color: white;
-    }
-    .navContainer a:hover {
-        color: white;
-        background-color: rgba(00, 00, 00, 0);
-        font-size: 1rem;
-        line-height: 10px;
-        margin: 10px 0px;
-    }
+         .navContainer {
+         flex-direction: column;
+         margin-right: 10px;
+         position: absolute;
+         top: 5px;
+         right: -10px;
+     }
+    
+     .navContainer a {
+         display: block;
+         color: rgba(00, 00, 00, 0);
+         font-size: .7rem;
+         margin: 0px;
+         width: 50px;
+         line-height: 4px;
+         background-color: white;
+     }
+    
+     .navContainer a:hover {
+         color: white;
+         background-color: rgba(00, 00, 00, 0);
+         font-size: 1rem;
+         line-height: 10px;
+         margin: 10px 0px;
+     }
     /* header section */
     header {
         margin: 0px auto;
@@ -418,6 +421,9 @@ address,
     }
     .stayUpdated input {
         width: 320px;
+    }
+    .contact {
+        margin-top: 10px;
     }
     address {
         text-align: center;
